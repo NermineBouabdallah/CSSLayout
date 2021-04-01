@@ -1,0 +1,435 @@
+ body{
+     padding: 0px 100px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ .topnav {
+     display: flex;
+     position:fixed;
+     background: white;
+     top:0px;
+     
+     padding-right: 100px;
+ }
+img {
+    height: 60%;
+    width: 30%;
+}
+
+.menu {
+    text-decoration: none;
+}
+
+  
+ .topnav a{
+
+    
+    color:#00b39b;
+    text-align: center;
+    
+    text-decoration: none;
+    font-size: 15px;
+    padding: 14px 16px;
+    
+     
+ }
+  .menu1 {
+    display: flex;
+    justify-content: flex-end;
+   
+    
+  }
+   .p1{
+       width: 800px;
+       height: 200px;
+   }
+   .p2{
+    width: 800px;
+    height: 200px;
+}
+  #a1,#a2 {
+      color: rgb(182, 174, 174);
+  }
+   .logo{
+       padding-top: 50px;
+       height: 40px;
+       width: 40px;
+       margin-left: 50%;
+       
+   }
+   h1{
+       font-family: Roboto,Arial,sans-serif;
+       color: #00b39b;
+       font-weight: 500;
+       text-align: center;
+   }
+
+    .parag{
+        display:flex;
+        justify-content: space-around;
+        font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: 500;
+    }
+     .p1{
+         
+         padding-right: 100px;
+     }
+      .pat{
+         color:white;
+         font-size: 20px;
+         padding-right: 100px;
+        
+     }
+      .form{
+        display:flex;
+        justify-content: space-around;
+        
+
+      }
+       .patients{
+           border-radius: 15px;
+           background-color:#11d3b9 ;
+           width: 300px;
+           height: 380px;
+       }
+        .patients:hover{
+            background-color:#2cecd3 ;
+        }
+       .patients-1{
+        padding-top: 30px;
+       
+    }
+        
+  .image{
+   height: 30px;
+    width: 30px;
+     padding-left: 50px;
+        }
+.doctors{
+  background-color:rgb(74, 74, 240);
+    width: 300px;
+    height: 380px;
+     border-radius: 15px;
+         }
+ .doctors:hover{
+ background-color:rgb(100, 100, 235);
+          }
+ .doctors-1{
+      padding-top: 30px;
+              
+          }
+        
+
+    .clinics{
+         background-color:rgb(49, 47, 47);
+        width: 300px;
+        height: 380px;
+      border-radius: 15px;
+          }
+           .clinics:hover{
+            background-color:rgb(88, 85, 85);
+
+           }
+           .clinics-1{
+               padding-top: 30px;
+           }
+           
+           .pat1{
+               color: white;
+               font-size: larger;
+              width: 200px;
+              padding-left: 50px;
+           }
+            #country{
+               
+                width: 75%;
+                background: none;
+                border:none;
+               
+                padding: 20px;
+                
+                font-size: 18px;
+
+                text-decoration: underline;
+                cursor: pointer;
+                padding-left: 50px;
+                color: whitesmoke;
+            }
+             .black{
+                 color: black;
+             }
+             .select{
+                 padding-top: 50px;
+                 height: 20px;
+                 width: 350px;
+             }
+              .select1{
+                  padding-top: 10px;
+              }
+             #ctr{
+                 color:white;
+             }
+             h4{
+                 padding-left: 50px;
+                 padding-top: 50px;
+                 color: #00b39b;
+                 font-family: ui-serif;
+                 font-size: 30px;
+             }
+             #a1:hover {
+                color:#00b39b;
+              
+                }
+                #a2:hover{
+                    color:#00b39b;  
+                }
+
+                 #clinicc{
+                    width: 75%;
+                    background: none;
+                    border:none;
+                   
+                    padding: 20px;
+                    
+                    font-size: 18px;
+    
+                    text-decoration: underline;
+                    cursor: pointer;
+                    padding-left: 50px;
+                    color: white; 
+
+                 }
+                 #clinicc1{
+                    width: 75%;
+                    background: none;
+                    border:none;
+                   
+                    padding: 20px;
+                    
+                    font-size: 18px;
+    
+                    text-decoration: underline;
+                    cursor: pointer;
+                    padding-left: 50px;
+                    color: white;
+
+                 }
+                 ul{
+                     list-style-type: none;
+                 }
+                 li  {
+                     display:inline;
+                     margin-left: 20px;
+                     
+                    }
+
+              .logoo img{
+                  height: 100px;
+                  width: 90px;
+              }
+              .section3{
+                  display: flex;
+              }
+              .logoo{
+                  padding-top: 80px;
+                  margin-left: 25px;
+                  padding-left: 25px;
+              }
+            
+.company{
+    width: 400px;
+    height: 40px;
+}
+.divA{
+    
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+  
+}
+
+p{
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    font-size: 15px;
+    
+    
+    }
+    .vert{
+        font-family: Roboto,Arial,sans-serif;
+       color: #34d3be;
+       font-weight: 500;
+       text-align: center;
+       font-size: 30px;
+
+    }
+    .section4{
+        padding-top: 50px;
+        display: flex;
+        background-color: #c8f8f2;
+        height: 800px;
+        
+    }
+    .colonne1{
+        width: 210px;
+        
+        background-color:white ;
+        border-radius: 5px;
+        margin-left: 120px;
+        margin-right: 11px;
+        margin-top: 50px;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        padding-left: 5px;
+
+        height: 250px;
+    
+    
+
+    }
+    .h22{
+        color: #34d3be;
+        font-size: 20px;
+        text-align: center;
+        
+    }
+    .drapeau{
+        height: 40px;
+        width: 40px;
+    }
+
+    .colonne2{
+        width: 210px;
+        
+        background-color:white ;
+        border-radius: 5px;
+        margin-left: 100px;
+        margin-right: 12px;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        padding-left: 5px;
+
+        height: 250px;
+    
+    }
+    .block{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        margin-left: 20px;
+        margin-right: 10px;
+      
+    }
+    .text{
+        display: flex;
+       flex-direction: column;
+     
+    }
+    #pp{
+        font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    font-size: 15px;
+    text-align: center;
+
+    }
+    .project1{
+        display: flex;
+        align-items: center;
+   justify-content: space-between;
+    }
+    .project{
+        width:300px;
+        border: 1px  rgba(196, 185, 185, 0.233);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:10px 5px;
+        margin-left: 20px;
+        
+        margin-top: 30px;
+        border-radius: 5px;
+    
+    }
+    .project:hover{
+        box-shadow:20px 10px 20px 10px rgba(167, 162, 162, 0.13);
+    }
+    .project img{
+        width: 100%;
+        height: 100%;
+    }
+    input[type=submit] {
+        background-color: #438fd6;
+        color: white;
+        padding: 8px 12px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 10px;
+      
+    
+           
+    }
+    .pictures{
+        display: flex;
+      
+   
+    flex-wrap: wrap;
+   
+    margin-left: 100px;
+    margin-top: 30px;
+    }
+    .btn a{
+        
+        text-decoration: none;
+        font-family: Roboto,Arial,sans-serif;
+       
+        color: #fff;
+        font-weight: 200;
+        letter-spacing: .04em;
+        font-size: 17px;
+     
+    
+        
+        
+    }
+    .btn{
+        background: #3d83df;
+        width: 250px;
+        height: 30px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        text-align: center;
+        padding-top: 8px;
+        margin-top: 1px;
+        
+       
+    }
+    h6{
+        font-size: 30px;
+        font-weight: 10;
+        margin-bottom: 50px;
+    }
+    .section6{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .foot{
+        text-align: center;
+
+        
+    }
+    #cont{
+        padding-top: 20px;
+        border-top:  1px  solid rgb(216, 209, 209);
+    }
